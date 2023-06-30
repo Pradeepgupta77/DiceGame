@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <div class="head_sec1">
+          <h1>Dice Game</h1>
+          <p>Created by pg</p>
+        </div>
+        <div class="head_sec2">
+          <input class="reset" type="button" value="Reset" />
+          <input class="set_score" type="button" value=" Win Score" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="key">
+        for Reset press ESC ,Set Score press Space & for Dice "player1 press 1"
+        ,"player2 press 2"
+      </div>
+      <div class="hero">
+        <div class="sec1">
+          <h2 contenteditable="true" spellcheck="false">Player 1</h2>
+          <p class="dice_count1"></p>
+          <div class="score s1">0</div>
+          <p>Totle Score</p>
+          <h3>0</h3>
+        </div>
+        <div class="sec2">
+          <div class="scc2_sec1">
+            <p></p>
+            <img class="img1" src="./dice1.png" alt="Dice" />
+            <img class="img2" src="./dice1.png" alt="Dice" />
+            <h6>0</h6>
+          </div>
+          <div class="scc2_sec2">
+            <input class="Player1" type="button" value="Player 1" />
+            <input class="Player2" type="button" value="Player 2" />
+          </div>
+        </div>
+        <div class="sec3">
+          <h2 contenteditable="true" spellcheck="false">Player 2</h2>
+          <p class="dice_count2"></p>
+          <div class="score s2">0</div>
+          <p>Totle Score</p>
+          <h3>0</h3>
+        </div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
