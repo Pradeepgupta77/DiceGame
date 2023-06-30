@@ -8,6 +8,8 @@ body{
     background-size: cover;
     font-family: 'Oswald', sans-serif;
     background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
 
 }
 
@@ -184,7 +186,7 @@ img{
 @media (min-width:500px) and (max-width:890px) {
     .head{
         flex-direction: column;
-        height: 10vh;
+        height: 20vh;
     }
     .head_sec1{
         height: 10vh;
@@ -219,7 +221,7 @@ img{
 @media(min-width:330px)and (max-width:660px){
     .head{
         flex-direction: column;
-        height: 10vh;
+        height: 20vh;
     }
     .head_sec1{
         height: 10vh;
